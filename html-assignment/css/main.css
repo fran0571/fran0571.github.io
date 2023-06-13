@@ -35,3 +35,8 @@ header a {
   border-color: 5px solid black;
 }
 
+header a:hover {
+  text-decoration: underline;
+  border: none;
+  background-color: transparent ;
+}
