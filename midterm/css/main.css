@@ -1,0 +1,240 @@
+/*MOCK UP WEBPAGE MIDTERM PROJECT*/
+
+/*CSS reset*/
+/*20110126 License: none (public domain)*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+  color:white;
+  font-size: 3.75rem;
+  text-align: center;
+}
+
+main p span{
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+/*I*/
+/*GENERAL SETTINGS*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  background-color:#aad4cf;
+}
+
+.wrapper {
+  background-color: #D5E8E6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+main {
+  margin: 15px 6px 15px 6px;
+}
+
+
+/*II*/
+/*STYLING HEADER AND NAV MENU*/
+
+.container {
+  position: relative;
+}
+
+#starfish-w {
+  width: 100%;
+  background-color: #aad4cf;
+}
+
+h1 {
+  position:absolute;
+  bottom: 20%;
+  width: 100%;
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+.display {
+  text-align: center;
+}
+
+.display ul {
+  font-size: 0.9rem;
+  display:flex;
+  padding-bottom: 5px; 
+}
+
+.display ul li {
+  width: 100%;
+  border: 1px solid  #D5E8E6;
+}
+
+.display li:nth-child(even) {
+  border-right-color: black;
+  border-left-color: black;
+}
+
+.display a:hover {
+  text-decoration:none;
+  color: black;
+} 
+
+.display a:not(hover) {
+  text-decoration:none;
+  color: black;
+} 
+
+
+/*III*/
+/*CONTENT: LAYOUT -> IMAGE+PARAGRAPH*/
+
+h2 {
+  font-size: 1.3rem;
+}
+
+#starfish-n{
+  width: 160px;
+  float: left;
+  padding: 6px 12px 14px 0px;
+}
+
+.fl-starfishp p {
+  font-size: 0.72rem;
+  line-height: 1.2;
+  font-stretch:condensed;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+/*IV*/
+/*CONTENT: LIST OF FACTS*/
+
+h3 {
+  font-size: 1rem;
+  padding-bottom: 6px;;
+}
+
+.facts ul {
+  position: relative;
+  list-style-type:disc;
+  padding-left: 12px;
+  padding-bottom:  15px;
+}
+
+.facts ul li{
+  font-size:0.6rem ;
+  line-height: 0.6rem;
+}
+
+/*V*/
+/*CONTENT: CONTACT FORM*/
+
+.contact-form {
+  padding: 15px 08px;
+  font-size: 0.7rem;
+  border: 1px solid black;
+}
+
+.idbox input[type=text] {
+  width: 100%;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  border: 0.5px solid #d3d5d5;
+}
+
+.idarea-box textarea {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  border: 0.5px solid #acabab;
+  resize: none;
+  margin-bottom: 5px;
+}
+
+.idradio input[type="radio"] {
+  appearance: none;
+  background-color: #fff;
+  margin-top: 14px;
+  width: 8px;
+  height: 8px;
+  border: 0.1px solid #acabab;
+  border-radius: 50%;
+}
+
+.idbutton button {
+  font-size: 0.5rem;
+  text-align: center;
+  padding: 8px;
+  margin-top: 10px;
+  border: 2px solid #615f5f;
+  border-style:double;
+  background-color: transparent;
+  
+}
+
+
+/*VI*/
+
+footer {
+  font-size: 0.6rem;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
