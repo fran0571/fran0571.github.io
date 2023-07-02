@@ -117,6 +117,7 @@ h1 {
 
 .display ul li {
   width: 100%;
+  text-transform: uppercase;
   border: 1px solid  #D5E8E6;
 }
 
